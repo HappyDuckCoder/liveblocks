@@ -81,6 +81,7 @@ const CollaborativeRoom = ({
               className="flex w-fit items-center justify-center gap-2"
             >
               {editing && !loading ? (
+                // {something wrong}
                 <Input
                   type="text"
                   value={documentTitle}
